@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+    <script src="./lib/matter.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+
+    <!-- Firebase SDK CODE ADD BELOW -->
+
+   <!-- Firebase -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+
+
+
+  <script>
+var firebaseConfig = {
+  apiKey: "AIzaSyDz6ktfs0lVTPMq_azxa2coeUh33K0inQg",
+  authDomain: "corrida-de-carros-305a0.firebaseapp.com",
+  databaseURL: "https://corrida-de-carros-305a0-default-rtdb.firebaseio.com",
+  projectId: "corrida-de-carros-305a0",
+  storageBucket: "corrida-de-carros-305a0.appspot.com",
+  messagingSenderId: "311290076673",
+  appId: "1:311290076673:web:df7801f485d68ecd19aa00"
+};
+firebase.initializeApp(firebaseConfig)
+</script>
+  </head>
+  <body>
+    
+    <script src="./sketch.js"></script>
+  </body>
+</html>
